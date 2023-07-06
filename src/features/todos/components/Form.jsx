@@ -24,7 +24,7 @@ const Form = () => {
     if (todo.title.trim() === "" || todo.body.trim() === "") return;
     
     setTodo({
-      id: id,
+      id: nextId.current,
       title: todo.title,
       body: todo.body,
       isDone: false,
