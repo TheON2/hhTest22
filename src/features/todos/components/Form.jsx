@@ -8,7 +8,7 @@ const Form = () => {
   const id = nextId();
   const dispatch = useDispatch()
   const [todo, setTodo] = useState({
-    id: '',
+    id: 1,
     title: "",
     body: "",
     isDone: false,
